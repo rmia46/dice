@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    background-color: #07090F;
+    height: 100%;
+    margin: 0;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+#title {
+    font-size: 45px;
+    height: 60px;
+}
+#result {
+    font-size: 25px;
+    height: 20px;
+}
+#score1, #score2 {
+    
+    font-size: 35px;
+    color: #DC143C;
+    display: inline-block;
+    padding: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+h4 {
+    font-weight: normal;
+}
+
+.btn {
+    height: 35px;
+    width: 65px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.dice {
+    width: 120px;
+    height: 120px;
+    background-color: #DC143C;
+    display: inline-block;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+
+.dot {
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.one {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.two {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.three {
+    position: absolute;
+    left: 10px;
+    top: 47.5px;
+}
+
+.four {
+    position: absolute;
+    right: 10px;
+    top: 47.5px;
+}
+
+.five {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.six {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.seven {
+    position: absolute;
+    left: 47.5px;
+    top: 47.5px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.player-name {
+    display: inline-block;
+    margin: 35px;
+    margin-top: 10px;
+}
